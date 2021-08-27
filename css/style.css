@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Instagram
 Author: Kenzie Academy
@@ -21,12 +22,42 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-
+font-family:Arial;
+  
 }
-
+.photo{
+  margin-left:20px;
+  border-radius:100%;
+}
+.highlight{
+border-radius:100%;
+  width:77px;
+  height:77px;
+}
+.openhouse{
+  border-radius:100%;
+  width:77px;
+  height:77px;
+}
+.profile-data{
+ align-items:center;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+ height:80px;
+  margin-right:200px;
+}
+.profile-info{
+  margin-left:100px;
+  color:#262626;
+}
+.highlighted-stories ul{
+ display:flex;
+  list-style:none;
+  flex-direction:row;  
+}
 /*TOPO*/
 header{
-	
 }
 
 /*RODAPÉ*/
@@ -38,14 +69,28 @@ footer{
 main{
 	
 }
-	main .profile-content{
-
+.profile-content{
+display:flex;
 	}
 
-	main .highlighted-stories{
-
+.profile-posts ul{
+list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
 	}
-
-	main .profile-posts{
-
-	}
+.linhavertical nav{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-top:40px;
+  margin-bottom:30px;
+  margin-left:500px;
+  width: 250px;
+}
+#linha{
+  width:1120px;
+  border:1px ridge grey;
+  margin-left:70px;
+  border-width:thin;
+}
