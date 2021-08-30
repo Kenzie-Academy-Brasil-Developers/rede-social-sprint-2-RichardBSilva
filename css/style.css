@@ -94,3 +94,6 @@ list-style:none;
   margin-left:70px;
   border-width:thin;
 }
+  @media ( min-width: 900px ) {
+  body {
+    background: white;
